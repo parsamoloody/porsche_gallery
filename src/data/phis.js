@@ -1,0 +1,161 @@
+export const people = [
+  {
+    id: 0,
+    names: "Creola Katherine Johnson",
+    profession: "mathematician",
+    accomplishment: "spaceflight calculations",
+    imageId: "MK3eW3A",
+  },
+  {
+    id: 1,
+    names: "Mario José Molina-Pasquel Henríquez",
+    profession: "chemist",
+    accomplishment: "discovery of Arctic ozone hole",
+    imageId: "mynHUSa",
+  },
+  {
+    id: 2,
+    names: "Mohammad Abdus Salam",
+    profession: "physicist",
+    accomplishment: "electromagnetism theory",
+    imageId: "bE7W1ji",
+  },
+  {
+    id: 3,
+    names: "Percy Lavon Julian",
+    profession: "chemist",
+    accomplishment:
+      "pioneering cortisone drugs, steroids and birth control pills",
+    imageId: "IOjWm71",
+  },
+  {
+    id: 4,
+    names: "Subrahmanyan Chandrasekhar",
+    profession: "astrophysicist",
+    accomplishment: "white dwarf star mass calculations",
+    imageId: "lrWQx8l",
+  },
+];
+
+export const carData = [
+  {
+    id: 0,
+    names: "Mercedes Benz s580",
+    imageId: "7er_QcA",
+    color: "black",
+  },
+  {
+    id: 1,
+    names: "Mazda",
+    imageId: "mNujrAp",
+    color: "black",
+  },
+  {
+    id: 2,
+    names: "Ford",
+    imageId: "9E7mQ5r",
+    color: "black",
+  },
+  {
+    id: 2,
+    names: "Fidility",
+    imageId: "9E7mQ5r",
+    color: "Black",
+  },
+  {
+    id: 2,
+    names: "Ford",
+    imageId: "9E7mQ5r",
+    color: "black",
+  },
+  {
+    id: 3,
+    names: "Honda",
+    imageId: "jpnFoWY",
+    color: "green",
+  },
+  {
+    id: 4,
+    names: "Nissan",
+    imageId: "Xd7EgfX",
+    color: "green",
+  },
+  {
+    id: 4,
+    names: "Mercedes Benz",
+    imageId: "Xd7EgfX",
+    color: "green",
+  },
+  {
+    id: 4,
+    names: "Nissan",
+    imageId: "Xd7EgfX",
+    color: "white",
+  },
+  {
+    id: 4,
+    names: "Nissan",
+    imageId: "Xd7EgfX",
+    color: "white",
+  },
+  {
+    id: 5,
+    names: "BMW",
+    imageId: "Xd7EgfX",
+    color: "white",
+  },
+  {
+    id: 6,
+    names: "Mercedes",
+    imageId: "Xd7EgfX",
+    color: "blue",
+  },
+  {
+    id: 7,
+    names: "Audi",
+    imageId: "Xd7EgfX",
+    color: "orange",
+  },
+  {
+    id: 8,
+    names: "ferrari",
+    imageId: "Xd7EgfX",
+    color: "orange",
+  },
+  {
+    id: 8,
+    names: "Volkswagen",
+    imageId: "Xd7EgfX",
+    color: "red",
+  },
+  {
+    id: 9,
+    names: "Tesla Elon Musk",
+    imageId: "Xd7EgfX",
+    color: "green",
+  },
+  {
+    id: 10,
+    names: "Toyota",
+    imageId: "Xd7EgfX",
+    color: "blue",
+  },
+  {
+    id: 11,
+    names: "Lotus",
+    imageId: "Xdue",
+    color: "blue",
+  },
+  {
+    id: 11,
+    names: "Toyota",
+    imageId: "Xdue",
+    color: "white",
+  },
+  {
+    id: 12,
+    names: "Toyota",
+    imageId: "Xdue",
+    color: "red",
+  },
+];

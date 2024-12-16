@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Header from "./components/header/header";
+import SelectCar from "./components/customize/app";
+
+import "./App.css";
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+
+
+  const toggleDarkMode = () => {
+    setDarkMode((prevMode) => !prevMode);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={darkMode ? "bg-black" : "bg-white"}>
+      <Header
+        changeDarkLight={toggleDarkMode}
+      />
+      <SelectCar />
     </div>
   );
 }
 
-export default App;
+export default function Main() {
+  return <App />;
+}
