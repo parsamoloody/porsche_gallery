@@ -38,6 +38,7 @@ export default function SelectCar() {
     setSelectedWheel(wheel);
   }, []);
 
+  
   const handleOpen360Model = () => {
     setOpenModel(!openModel);
   };
