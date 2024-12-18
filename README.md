@@ -21,5 +21,16 @@ Welcome to the **Porsche Gallery** project! This is an interactive React-based a
 To get started with this project locally, follow these steps:
 
 1. Clone the repository:
-   ```bash
+   ```
    git clone https://github.com/yourusername/porsche-gallery.git
+   ```
+   2. install dependenciew:
+      
+```
+npm install
+```
+3. run app
+     ```
+     npm run start
+     npm run
+     ```
