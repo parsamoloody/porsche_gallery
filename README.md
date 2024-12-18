@@ -27,9 +27,9 @@ To get started with this project locally, follow these steps:
    ```
 3. install dependenciew:
       
-```
+   ```
     npm install
-```
+   ```
 4. Run in Local Environment:
    
      ```
@@ -38,7 +38,7 @@ To get started with this project locally, follow these steps:
      ```
 
 5. Run in Production:
-   
-```
-npm build
-```
+    
+    ```
+    npm build
+    ```
